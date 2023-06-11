@@ -1,6 +1,6 @@
 # ChatGPT Plugin
 
-A simple ChatGPT plugin for creating QR codes. Check out my ChatGPT Plugin Development Tutorial to learn how to build this.
+A simple ChatGPT plugin for creating QR codes. Check out my [ChatGPT Plugin Development Tutorial](https://dev.to/mmz001/chatgpt-plugin-development-tutorial-4p4d) to learn how to build this.
 
 ## Local setup
 
