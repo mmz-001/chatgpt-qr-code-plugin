@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "QR Code",
+  "name_for_model": "qr_code",
+  "description_for_human": "Generate QR codes.",
+  "description_for_model": "Generate QR codes. The generated QR code link should be displayed as a markdown image.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "$host/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "$host/.well-known/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "http://www.example.com/legal"
+}

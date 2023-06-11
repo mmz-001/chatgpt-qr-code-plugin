@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "chatgpt-qr-code-plugin"
+version = "0.1.0"
+description = ""
+authors = ["mmz-001 <70096033+mmz-001@users.noreply.github.com>"]
+readme = "README.md"
+packages = [
+    { include = "server"}
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.3.0"
+requests = "^2.30.0"
+pyyaml = "^6.0"
+fastapi = "^0.95.2"
+uvicorn = "^0.22.0"
+qrcode = {extras = ["pil"], version = "^7.4.2"}
+pyzbar = "^0.1.9"
+
+
+[tool.poetry.scripts]
+start = "server.main:start"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
