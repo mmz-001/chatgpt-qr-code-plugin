@@ -1,6 +1,6 @@
 # ChatGPT Plugin
 
-This branch contains the starter code for my ChatGPT Plugin Development Tutorial.
+This branch contains the starter code for my [ChatGPT Plugin Development Tutorial](https://dev.to/mmz001/chatgpt-plugin-development-tutorial-4p4d).
 
 ## Local setup
 
